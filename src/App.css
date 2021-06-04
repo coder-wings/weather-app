@@ -1,0 +1,83 @@
+.header_container {
+  background-color: black;
+  height: 100px;
+  text-align: center;
+  padding-top: 10px;
+}
+.header_container h1 {
+  font-family: cursive;
+  color: white;
+}
+.city_container {
+  border: 5px solid blanchedalmond;
+  width: 400px;
+  height: 500px;
+  margin: 10px auto;
+  background-image: url(./weather.jpg);
+  /*text-align: center;
+  padding-top: 50px;*/
+  border-radius: 15px;
+}
+.city_container h1 {
+  text-align: center;
+  font-family: cursive;
+}
+/* .city_container span {
+  margin-left: 30px;
+  color: gold;
+  font-size: larger;
+} */
+svg {
+  background-color: white;
+  width: 58px;
+  height: 35px;
+  position: absolute;
+}
+svg:hover {
+  background-color: rgb(21, 212, 21);
+}
+input {
+  width: 180px;
+  height: 30px;
+}
+.inp-container {
+  box-sizing: border-box;
+  width: 250px;
+  border: 2px solid midnightblue;
+  box-shadow: 2px 2px 5px 2px midnightblue;
+  margin: 0px auto;
+}
+.city-cont {
+  width: 200px;
+  margin: 10px auto auto;
+  text-align: center;
+  font-size: 25px;
+  color: darkorange;
+}
+.city_container img {
+  display: block;
+  width: 135px;
+  height: 80px;
+  margin: 0px auto;
+}
+.temperature {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 28px;
+  font-weight: bold;
+  color: darkorange;
+}
+.min-max-temp {
+  display: inline-block;
+  width: 200px;
+}
+.temp-description {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 28px;
+  font-weight: 300;
+  color: white;
+  letter-spacing: 5px;
+}
